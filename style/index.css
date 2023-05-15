@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: wheat;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;    
+}
+
+header ul{
+    display: flex;
+    gap: 30px;
+    
+}
+header ul li{
+    list-style-type: none;
+    
+}
+header ul li a{
+    text-decoration: none;
+}
+
+
+table ,th, td {border: solid;
+    border-collapse: collapse;
+    
+    
+
+}
+table{
+    width: 20%;
+    margin: 50px;
+    
+}
+table thead{
+    background-color:gray;
+}
+table td{
+    background-color: darkgrey;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+}
+
