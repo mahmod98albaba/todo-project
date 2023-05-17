@@ -37,13 +37,13 @@ console.log(answer)
 function AnswerQustion(){let answer1 =prompt('do you like sport');
 let answer2=prompt('Have you eaten yet');
 let answer3= prompt('do you like footbal');
-if(answer1!=='yes'){
+if(answer1=='yes'||'no'){
     answer1='invaled'
 }
-if(answer2!=='yes'){
+if(answer2=='yes'||'no'){
     answer2='invaled'
 }
-if(answer3!=='yes'){
+if(answer3=='yes' ||'no'){
     answer3='invaled'
 }
  arr.push(answer1,answer2,answer3)
@@ -54,4 +54,3 @@ console.log(arr);
 for(let i=0;i<3;i++){
     console.log(arr[i])
 }
-
