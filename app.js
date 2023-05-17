@@ -32,7 +32,7 @@ function CheckIFTrueOrFalse(){ if(answer == false) {
 CheckIFTrueOrFalse();
 console.log(answer)
 
-
+// function for compare
  let arr=[];
 function AnswerQustion(){let answer1 =prompt('do you like sport');
 let answer2=prompt('Have you eaten yet');
