@@ -31,19 +31,30 @@ function CheckIFTrueOrFalse(){ if(answer == false) {
 }
 CheckIFTrueOrFalse();
 console.log(answer)
+let arrayOfAnswers = [];
 
 let answer1 =prompt('do you like sport');
+CheckIFYesOrNo(answer1);
+
 let answer2 =prompt('Have you eaten yet');
+CheckIFYesOrNo(answer2);
+
 let answer3=prompt('do you like footbal');
-function CheckIFYesOrNo(x,y,z){
-    if(answer1!='yes'||'no')
-    answer1='invalid'
-    if(answer2!='yes'||'no')
-    answer2='invalid'
-    if(answer3!='yes'||'no')
-    answer3='invalid'
-    const qustion=['x','y','z']
+CheckIFYesOrNo(answer3);
+
+function CheckIFYesOrNo(x){
+    if(x !== 'yes' && x !=='no'){
+        x='invalid';
+    }else{
+        x= x;
+    }
+    arrayOfAnswers.push(x);
+  
 }
-CheckIFYesOrNo(answer1,answer2,answer3)
-console.log(answer1)
+for (let index = 0; index < arrayOfAnswers.length; index++) {
+    console.log(arrayOfAnswers[index])
+
+    
+}
+console.log(arrayOfAnswers)
 
